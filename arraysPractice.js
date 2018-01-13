@@ -34,7 +34,7 @@ function looper(family) {
     alert(family[i]);
   }
 }
-  
+
 //looper(family);
 
 
@@ -46,7 +46,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given letters as it's only argument and loops through the given array backwards alerting every item in the array starting at the end.
 
 function reversedLooper(letters) {
-  
+
   for(var i = letters.length -1; i >= 0; i--) {
     alert(letters[i])
   }
@@ -182,8 +182,9 @@ function addItem(myGroceryList, item) {
 }
 
 //removeItem(myGroceryList, 'chips') --> //['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
+removeItem(myGroceryList, 'chips');
 //addItem(myGroceryList, 'Jerky') --> //['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
-
+addItem(myGroceryList, 'Jerky');
 
 
 //Next Problem
@@ -226,7 +227,7 @@ function addTen(numbers) {
       numbers[i] = parseInt(numbers[i]);
     }
   }
-  
+
   for(var i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i] +10;
   }
@@ -392,15 +393,15 @@ var user1 = {
 
 var user2 = {
   name: 'Katie Olivia',
-  email: 'katieosmith@hotmail.com',
-  password: 'jessie123',
-  username: 'katieosmith'
+  email: 'katie@hotmail.com',
+  password: 'bobby',
+  username: 'katieO'
 };
 
 var user3 = {
   name: 'Bobby Nutzman',
-  email: 'bobby.nutzman@gmail.com',
-  password: 'katieabc',
+  email: 'bobby@gmail.com',
+  password: 'katie',
   username: 'bobbyJ'
 };
 
